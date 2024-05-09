@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    password: akash
+    url: jdbc:postgresql://localhost:5432/UserLogin
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+  mail:
+    host: smtp.gmail.com
+    password: mkaw jpdr dffc vqwu
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          ssl:
+            trust: smtp.gmail.com
+          starttls:
+            enable: true
+    username: akashvarma.k@gmail.com
